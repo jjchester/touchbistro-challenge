@@ -48,9 +48,9 @@ let tax1 = BillItemTaxModel(label: "Tax 1 (5%)", amount: 5, isEnabled: true)
 let tax2 = BillItemTaxModel(label: "Tax 2 (8%)", amount: 8, isEnabled: true)
 let alcoholTax = BillItemTaxModel(label: "Alcohol Tax (10%)", amount: 10, isEnabled: true, appliedCategories: ["Alcohol"])
 
-let discount5Dollars = DiscountModel(discountType: .amount, amount: 5, label: "$5.00", isEneabled: false)
-let discount10Percent = DiscountModel(discountType: .percentage, amount: 10, label: "10%", isEneabled: false)
-let discount20Percent = DiscountModel(discountType: .percentage, amount: 20, label: "20%", isEneabled: false)
+let discount5Dollars = DiscountModel(discountType: .amount, amount: 5, label: "$5.00", isEnabled: false)
+let discount10Percent = DiscountModel(discountType: .percentage, amount: 10, label: "10%", isEnabled: false)
+let discount20Percent = DiscountModel(discountType: .percentage, amount: 20, label: "20%", isEnabled: false)
 
 var taxes: [BillItemTaxModel] = [
     tax1,

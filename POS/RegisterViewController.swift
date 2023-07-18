@@ -55,7 +55,7 @@ class RegisterViewController: UIViewController, UINavigationControllerDelegate {
     }
     
     internal func calculateAndUpdateTotals() {
-        let bill = BillModel(items: viewModel.orderItems, discounts: discounts.filter { $0.isEnabled }, taxes: taxes.filter { $0.isEnabled} )
+        let bill = BillModel(items: viewModel.orderItems, discounts: discounts, taxes: taxes)
         
         // Probably don't need to do this async but if you had a lot of items it might be slow enough to block UI
         DispatchQueue.global(qos: .userInitiated).async {
