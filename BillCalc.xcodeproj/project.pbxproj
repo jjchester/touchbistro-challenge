@@ -15,8 +15,8 @@
 		6AEC1006226F8719005F8B6B /* POSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC1005226F8719005F8B6B /* POSTests.swift */; };
 		6AEC1011226F8719005F8B6B /* POSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC1010226F8719005F8B6B /* POSUITests.swift */; };
 		6AEC101D226FAB32005F8B6B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC101C226FAB31005F8B6B /* Menu.swift */; };
-		D013BF8A2A6690EA00652CC8 /* BillKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BF4BE42A668E6F008229D9 /* BillKit.framework */; };
-		D013BF8B2A6690EA00652CC8 /* BillKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0BF4BE42A668E6F008229D9 /* BillKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D013BF952A66946B00652CC8 /* BillKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D013BF922A66946500652CC8 /* BillKit.framework */; };
+		D013BF962A66946B00652CC8 /* BillKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D013BF922A66946500652CC8 /* BillKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D029DF812A66244600D4D8E4 /* RegisterViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D029DF802A66244600D4D8E4 /* RegisterViewModelDelegate.swift */; };
 		D029DF852A663C0900D4D8E4 /* PresentedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D029DF842A663C0900D4D8E4 /* PresentedDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -36,16 +36,30 @@
 			remoteGlobalIDString = 6AEC0FED226F8717005F8B6B;
 			remoteInfo = POS;
 		};
-		D0BF4BE32A668E6F008229D9 /* PBXContainerItemProxy */ = {
+		D013BF912A66946500652CC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D029DF562A65D55600D4D8E4 /* BillKit.xcodeproj */;
+			containerPortal = D013BF8C2A66946500652CC8 /* BillKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D029DF3C2A65D44100D4D8E4;
 			remoteInfo = BillKit;
 		};
-		D0BF4BE52A668E6F008229D9 /* PBXContainerItemProxy */ = {
+		D013BF932A66946500652CC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D029DF562A65D55600D4D8E4 /* BillKit.xcodeproj */;
+			containerPortal = D013BF8C2A66946500652CC8 /* BillKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D029DF442A65D44100D4D8E4;
+			remoteInfo = BillKitTests;
+		};
+		D013BF9C2A66947F00652CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D013BF972A66947F00652CC8 /* BillKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D029DF3C2A65D44100D4D8E4;
+			remoteInfo = BillKit;
+		};
+		D013BF9E2A66947F00652CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D013BF972A66947F00652CC8 /* BillKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D029DF442A65D44100D4D8E4;
 			remoteInfo = BillKitTests;
@@ -59,7 +73,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D013BF8B2A6690EA00652CC8 /* BillKit.framework in Embed Frameworks */,
+				D013BF962A66946B00652CC8 /* BillKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,8 +95,8 @@
 		6AEC1010226F8719005F8B6B /* POSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSUITests.swift; sourceTree = "<group>"; };
 		6AEC1012226F8719005F8B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AEC101C226FAB31005F8B6B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		D029DF562A65D55600D4D8E4 /* BillKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BillKit.xcodeproj; path = ../../Workspace/iOS/BillKit/BillKit.xcodeproj; sourceTree = "<group>"; };
-		D029DF792A65D80A00D4D8E4 /* BillKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BillKit; path = ../../Workspace/iOS/BillKit; sourceTree = "<group>"; };
+		D013BF8C2A66946500652CC8 /* BillKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BillKit.xcodeproj; path = BillKit/BillKit.xcodeproj; sourceTree = "<group>"; };
+		D013BF972A66947F00652CC8 /* BillKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BillKit.xcodeproj; path = BillKit/BillKit.xcodeproj; sourceTree = "<group>"; };
 		D029DF802A66244600D4D8E4 /* RegisterViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModelDelegate.swift; sourceTree = "<group>"; };
 		D029DF842A663C0900D4D8E4 /* PresentedDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedDelegate.swift; sourceTree = "<group>"; };
 		D029DF872A667B7700D4D8E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -93,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D013BF8A2A6690EA00652CC8 /* BillKit.framework in Frameworks */,
+				D013BF952A66946B00652CC8 /* BillKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,8 +131,8 @@
 		6AEC0FC6226F8639005F8B6B = {
 			isa = PBXGroup;
 			children = (
+				D013BF972A66947F00652CC8 /* BillKit.xcodeproj */,
 				D029DF872A667B7700D4D8E4 /* README.md */,
-				D029DF562A65D55600D4D8E4 /* BillKit.xcodeproj */,
 				6AEC0FEF226F8718005F8B6B /* POS */,
 				6AEC1004226F8719005F8B6B /* POSTests */,
 				6AEC100F226F8719005F8B6B /* POSUITests */,
@@ -171,21 +185,30 @@
 			path = POSUITests;
 			sourceTree = "<group>";
 		};
+		D013BF8D2A66946500652CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D013BF922A66946500652CC8 /* BillKit.framework */,
+				D013BF942A66946500652CC8 /* BillKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D013BF982A66947F00652CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D013BF9D2A66947F00652CC8 /* BillKit.framework */,
+				D013BF9F2A66947F00652CC8 /* BillKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D029DF752A65D79E00D4D8E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D029DF792A65D80A00D4D8E4 /* BillKit */,
+				D013BF8C2A66946500652CC8 /* BillKit.xcodeproj */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D0BF4BDF2A668E6F008229D9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D0BF4BE42A668E6F008229D9 /* BillKit.framework */,
-				D0BF4BE62A668E6F008229D9 /* BillKitTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,8 +308,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D0BF4BDF2A668E6F008229D9 /* Products */;
-					ProjectRef = D029DF562A65D55600D4D8E4 /* BillKit.xcodeproj */;
+					ProductGroup = D013BF8D2A66946500652CC8 /* Products */;
+					ProjectRef = D013BF8C2A66946500652CC8 /* BillKit.xcodeproj */;
+				},
+				{
+					ProductGroup = D013BF982A66947F00652CC8 /* Products */;
+					ProjectRef = D013BF972A66947F00652CC8 /* BillKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -299,18 +326,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D0BF4BE42A668E6F008229D9 /* BillKit.framework */ = {
+		D013BF922A66946500652CC8 /* BillKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = BillKit.framework;
-			remoteRef = D0BF4BE32A668E6F008229D9 /* PBXContainerItemProxy */;
+			remoteRef = D013BF912A66946500652CC8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D0BF4BE62A668E6F008229D9 /* BillKitTests.xctest */ = {
+		D013BF942A66946500652CC8 /* BillKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = BillKitTests.xctest;
-			remoteRef = D0BF4BE52A668E6F008229D9 /* PBXContainerItemProxy */;
+			remoteRef = D013BF932A66946500652CC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D013BF9D2A66947F00652CC8 /* BillKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BillKit.framework;
+			remoteRef = D013BF9C2A66947F00652CC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D013BF9F2A66947F00652CC8 /* BillKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BillKitTests.xctest;
+			remoteRef = D013BF9E2A66947F00652CC8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
